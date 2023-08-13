@@ -1,10 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point
- *
- * Desciption: print all alphabet letters
  *
  * Return: Always 0 (Success)
  */
@@ -12,10 +9,19 @@
 int main(void)
 {
 	char ch = 'a';
+	char cH = 'A';
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
+	}
+
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+
 	}
 	putchar('\n');
 
